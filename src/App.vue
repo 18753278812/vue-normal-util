@@ -1,17 +1,30 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <Test />
+    <el-col :span="9">
+      <carsouel />
+      <Table />
+
+      <Common />
+
+    </el-col> -->
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import Test from './components/Test.vue'
+// import carsouel from './components/carsouel.vue'
+// import Table from './components/Table.vue'
+// import Common from './components/index'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // Test,
+    // carsouel,
+    // Table,
+    // Common
   }
 }
 </script>
